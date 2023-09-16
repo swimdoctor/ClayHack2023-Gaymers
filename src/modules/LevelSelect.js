@@ -1,11 +1,55 @@
-import '../styles/LevelSelect.css';
+import { useState } from "react";
+import { motion } from 'framer-motion';
+import { Link } from "react-router-dom";
+import "../styles/LevelSelect.css";
+
+// import Calendar from 'react-calendar';
+
+const level_element = {
+	hover: {
+		scale: 1.1,
+	},
+	tap: {
+		scale: 0.9,
+	},
+};
 
 function LevelSelect() {
-    return (
-        <div className='wrapper' id='levelselect-wrapper'>
+	// const [value, setValue] = useState(new Date())
+	// function onChange(nextValue) {
+	//     console.log(nextValue);
+	// }
 
-        </div>
-    )
+	const games = [1, 2, 3, 4, 5, 6];
+	var gamesList = [];
+
+	games.forEach((level_number, index) => {
+		gamesList.push(
+			<motion.div
+				className="level button"
+				key={index}
+				variants={level_element}
+				whileHover={"hover"}
+				whileTap={"tap"}
+			>
+				<Link to="/gameplay"><p>{level_number}</p></Link>
+			</motion.div>
+		);
+	});
+
+	return (
+		<div className="page" id="levelselect-page">
+			<div className="wrapper" id="levelselect-wrapper">
+				<div id="levelselect-title">Select a Level...</div>
+				<div id="level-grid">{gamesList}</div>
+				{/* <Calendar onChange={onChange} value={value}/>
+                <div id='preview-element'>
+                    <div id='preview-title'>No level selected...</div>
+                    <div id='preview-time'>Pick one by selected a day.</div>
+                </div> */}
+			</div>
+		</div>
+	);
 }
 
 export default LevelSelect;

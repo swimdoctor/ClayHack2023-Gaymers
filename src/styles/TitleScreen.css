@@ -1,0 +1,20 @@
+#titlescreen-wrapper {
+    width: 640px;
+    height: min-content;
+    padding: 16px;
+}
+#welcome_title {
+    font-size: 60px;
+}
+#welcome_start {
+    border-radius: 20px;
+    width: 40%;
+    cursor: pointer;
+}
+#welcome_start a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}

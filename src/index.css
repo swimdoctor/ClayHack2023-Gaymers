@@ -12,8 +12,28 @@ code {
     monospace;
 }
 
+.page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    background: #C1DBB3;
+    border-radius: 24px;
+}
+
+.button {
+    background-color: #7EBC89;
+}
+
+.gap {
+    width: 100%;
+    height: 24px;
 }

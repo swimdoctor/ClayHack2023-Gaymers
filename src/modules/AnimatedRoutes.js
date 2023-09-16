@@ -12,9 +12,9 @@ function AnimatedRoutes() {
             <Routes location={location} key={location.pathname}>
                 {/* <Route exact path="/portfolio/" element={<Home1 />}/>
                 <Route exact path="/portfolio/_" element={<Home2 />}/> */}
-                <Route exact path={"/gametitle/"} element={<TitleScreen />}/>
-                <Route path={"/gametitle/level_select/"} element={<LevelSelect />}/>
-                <Route path={"/gametitle/gameplay"} element={<Gameplay />}/>
+                <Route exact path={"/"} element={<TitleScreen />}/>
+                <Route path={"/level_select"} element={<LevelSelect />}/>
+                <Route path={"/gameplay"} element={<Gameplay />}/>
             </Routes>
         </AnimatePresence>
     )

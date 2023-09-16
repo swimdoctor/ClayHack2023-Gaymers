@@ -1,4 +1,4 @@
-import '../styles/gameplay.css';
+import '../styles/Gameplay.css';
 
 function Gameplay() {
     return (

@@ -1,0 +1,9 @@
+#background-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FAEDCA;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}

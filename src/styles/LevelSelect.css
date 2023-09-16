@@ -1,0 +1,33 @@
+#levelselect-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#levelselect-title {
+    padding: 12px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#level-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 12px;
+    padding: 12px;
+}
+
+.level {
+    border-radius: 12px;
+    width: 60px;
+    height: auto;
+    aspect-ratio: 1/1;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+.level a {
+    color: black;
+    text-decoration: none;
+}

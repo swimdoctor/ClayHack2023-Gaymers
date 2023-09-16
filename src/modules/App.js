@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, useLocation } from "react-router-dom";
+import { HashRouter as Router, useLocation } from "react-router-dom";
 import "../styles/App.css";
 
 import AnimatedRoutes from "./AnimatedRoutes";

@@ -2,9 +2,7 @@ import "../styles/Background.css";
 
 function Background() {
     return (
-        <div id="background-wrapper">
-
-        </div>
+        <div id="background-wrapper"></div>
     )
 }
 
