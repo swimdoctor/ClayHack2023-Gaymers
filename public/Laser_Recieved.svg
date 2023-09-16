@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	x="0%" y="0%"
+	width="100%" height="100%"
+	viewBox="0 0 24.0 24.0"
+	enable-background="new 0 0 24.0 24.0"
+	xml:space="preserve">
+<defs>
+	<linearGradient id="fillGrad16" x1="0.000%" y1="50.000%" x2="100.000%" y2="50.000%">
+   		<stop offset="0.000%" style="stop-color:rgb(255,41,0);stop-opacity:1.000" />
+		<stop offset="100.000%" style="stop-color:rgb(106,0,0);stop-opacity:0.396" />
+	</linearGradient>
+
+</defs>
+	<path
+		fill="#272727"
+		stroke="#E1ECFF"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.0"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M32.52,19.29C33.10,19.29,33.56,19.72,33.56,20.26C33.56,20.81,33.10,21.24,32.52,21.24C31.95,21.24,31.48,20.81,31.48,20.26C31.48,19.72,31.95,19.29,32.52,19.29z"/>
+	<path
+		fill="#676767"
+		stroke="#000000"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.12"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M21.56,21.69L9.18,8.84L5.75,19.38L1.63,22.88M1.81,0.90L5.93,4.39L9.37,14.93L21.74,2.08"/>
+	<path
+		fill="#000238"
+		stroke="#000000"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.12"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M1.77,0.94L10.21,1.50M9.54,22.41L1.81,22.90"/>
+	<path
+		fill="#3E3E3E"
+		stroke="#000000"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.12"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M11.26,1.18L19.11,1.18A3.57 3.57 0 0 1 22.69,4.75L22.69,19.30A3.57 3.57 0 0 1 19.11,22.88L11.26,22.88A3.57 3.57 0 0 1 7.68,19.30L7.68,4.75A3.57 3.57 0 0 1 11.26,1.18z"/>
+	<path
+		fill="#000000"
+		stroke="#7A7A7A"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.0"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M21.38,21.07C21.75,21.07,22.05,21.37,22.05,21.74C22.05,22.12,21.75,22.42,21.38,22.42C21.01,22.42,20.70,22.12,20.70,21.74C20.70,21.37,21.01,21.07,21.38,21.07zM1.77,0.23C1.40,0.23,1.10,0.54,1.10,0.91C1.10,1.28,1.40,1.58,1.77,1.58C2.14,1.58,2.44,1.28,2.44,0.91C2.44,0.54,2.14,0.23,1.77,0.23zM1.77,22.09C1.40,22.09,1.10,22.39,1.10,22.77C1.10,23.14,1.40,23.44,1.77,23.44C2.14,23.44,2.44,23.14,2.44,22.77C2.44,22.39,2.14,22.09,1.77,22.09zM21.66,1.45C21.29,1.45,20.99,1.75,20.99,2.12C20.99,2.50,21.29,2.80,21.66,2.80C22.03,2.80,22.34,2.50,22.34,2.12C22.34,1.75,22.03,1.45,21.66,1.45zM1.77,0.23C1.40,0.23,1.10,0.54,1.10,0.91C1.10,1.28,1.40,1.58,1.77,1.58C2.14,1.58,2.44,1.28,2.44,0.91C2.44,0.54,2.14,0.23,1.77,0.23zM1.77,22.09C1.40,22.09,1.10,22.39,1.10,22.77C1.10,23.14,1.40,23.44,1.77,23.44C2.14,23.44,2.44,23.14,2.44,22.77C2.44,22.39,2.14,22.09,1.77,22.09z"/>
+	<path
+		transform = "rotate(-0.00 13.80 11.70)"
+		fill="url(#fillGrad16)"
+		stroke="#7A7A7A"
+		fill-opacity="1.0"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.24"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M7.71,9.72A6.44 6.17 -0.00 1 1 7.73,13.73"/>
+	<path
+		fill="#C7F3FF"
+		stroke="#7A7A7A"
+		fill-opacity="0.306"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.0"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M13.80,5.53C17.36,5.53,20.24,8.29,20.24,11.70C20.24,15.10,17.36,17.86,13.80,17.86C10.25,17.86,7.37,15.10,7.37,11.70C7.37,8.29,10.25,5.53,13.80,5.53z"/>
+	<path
+		fill="#C7F3FF"
+		stroke="#FDFDFD"
+		fill-opacity="0.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.24"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M13.94,6.27Q16.57,6.19,18.14,8.34"/>
+</svg>
