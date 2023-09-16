@@ -1,46 +1,76 @@
 import '../styles/Level.css';
 import { ReactP5Wrapper } from '@p5-wrapper/react';
 
-function sketch(p5) {
-    class Grid{
-	    constructor(x, y){
-		    this.xSize = x;
-		    this.ySize = y;
-            this.grid = []
-            for (let i = 0; i < y; i++) {
-                this.grid.push([])
-                for (let j = 0; j < x; j++) {
-                    this.grid[this.grid.length-1].push(Pieces.None);
+const Piece = {
+    None:'None',
+    Emitter:'Emitter',
+    Mirror:'https://raw.githubusercontent.com/swimdoctor/Lazal/0000eb7397cab0ae82133c1ca215e2afa3107700/public/Mirror_One_Side.svg',
+    DoubleMirror:'DoubleMirror',
+    Block:'Block',
+    Prism:'Prism',
+    TransMirror:'TransMirror',
+    Wall:'Wall'
+}
+
+let levels = {
+    "9/16/2023": {
+        "grid": [
+            'XXXXXXXX',
+            'XXXXXXXX',
+            'XXXXXXXX',
+            'XXXX XXX',
+            'XXXX XXX',
+            'XXXX XXX',
+            'XXXXMXXX',
+            'XXXXXXXX',
+        ]
+    }
+}
+
+class Grid{
+    constructor(x, y, day){
+        this.xSize = levels[day]["grid"][0].length;
+        this.ySize = levels[day]["grid"].length;
+        this.grid = [];
+        for (const line of levels[day]["grid"]) {
+            let output_bracket = [];
+            for (const char of line) {
+                let output = Piece.None;
+                switch (char) {
+                    case 'X':
+                        output = Piece.Wall;
+                    break;
+                    case 'M':
+                        output = Piece.Mirror;
+                    break;
                 }
+                output_bracket.push(output);
             }
-	    }
-	
-	    addPiece(x, y, piece){
-		    this.grid[x][y] = piece;
-	    }
+            this.grid.push(output_bracket);
+        }
     }
+}
 
-    let img;
-    let str = "9/16/2023_8x8_";
-
+function sketch(p5) {
     let gameGrid;
-    const Pieces = {
+
+    let Sprite = {
         None:'None',
-    	Emitter:'Emitter',
-    	Mirror:'Mirror',
-    	DoubleMirror:'DoubleMirror',
-    	Block:'Block',
-    	Prism:'Prism',
-    	TransMirror:'TransMirror',
-    	Wall:'Wall'
+        Emitter:'Emitter',
+        Mirror: p5.loadImage(Piece.Mirror),
+        DoubleMirror:'DoubleMirror',
+        Block:'Block',
+        Prism:'Prism',
+        TransMirror:'TransMirror',
+        Wall:'Wall'
     }
 
-    let sprites;
+    let myImage = p5.loadImage('https://raw.githubusercontent.com/swimdoctor/Lazal/0000eb7397cab0ae82133c1ca215e2afa3107700/public/Mirror_One_Side.svg');
+
     p5.setup = () => {
         p5.createCanvas(900, 600);
 	    p5.background(50, 50, 50);
-	    //sprites = {'Mirror':loadImage('1694500795large-white-cloud.svg')};
-	    gameGrid = new Grid(8, 8);
+	    gameGrid = new Grid(8, 8, "9/16/2023");
     };
   
     p5.draw = () => {
@@ -59,16 +89,23 @@ function sketch(p5) {
         p5.fill(255, 0, 0)
     	for(let y = 0; y < gameGrid.ySize; y++){
     		for(let x = 0; x < gameGrid.xSize; x++){
-                if ((x + y) % 2 == 1) p5.fill(170)
-                else p5.fill(200)
+                // if ((x + y) % 2 == 1) p5.fill(170)
+                // else p5.fill(200)
                 let tile_w = (600 - 8 - 4) / gameGrid.xSize;
                 let tile_h = (600 - 8 - 4) / gameGrid.ySize;
-    			p5.rect(106 + x * tile_w, 6 + y * tile_h, tile_w, tile_h);
 
-                let piece_type = gameGrid.grid[x][y];
+                let piece_type = gameGrid.grid[y][x];
                 switch (piece_type) {
-                    case Pieces.Mirror:
-                        
+                    case Piece.Wall:
+                        p5.fill(150);
+                        p5.rect(106 + x * tile_w, 6 + y * tile_h, tile_w, tile_h);
+                    break;
+                    case Piece.Mirror:
+                        p5.image(myImage, 106 + x * tile_w, 6 + y * tile_h, tile_w, tile_h);
+                    break;
+                    default:
+                        p5.fill(200);
+                        p5.rect(106 + x * tile_w, 6 + y * tile_h, tile_w, tile_h);
                 }
     		}
     	}
