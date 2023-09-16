@@ -4,11 +4,14 @@
   "homepage": "https://swimdoctor.github.io/Lazal/#",
   "private": true,
   "dependencies": {
+    "@p5-wrapper/react": "^4.2.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "create-react-app": "^5.0.1",
     "framer-motion": "^10.16.4",
     "gh-pages": "^6.0.0",
+    "p5": "^1.7.0",
     "react": "^18.2.0",
     "react-calendar": "^4.6.0",
     "react-dom": "^18.2.0",
@@ -17,6 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",

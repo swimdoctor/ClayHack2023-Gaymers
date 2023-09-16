@@ -1,4 +1,5 @@
 import "../styles/TitleScreen.css";
+import Level from "./Level";
 
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -27,6 +28,7 @@ function TitleScreen() {
                     <Link to="/level_select"><p>Start</p></Link>
                 </motion.div>
             </div>
+            <Level></Level>
         </div>
 	);
 }

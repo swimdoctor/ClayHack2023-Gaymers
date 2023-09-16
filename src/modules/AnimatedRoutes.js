@@ -7,6 +7,8 @@ import Gameplay from './Gameplay';
 
 function AnimatedRoutes() {
     var location = useLocation();
+    console.log(location.pathname)
+    console.log(location)
     return (
         <AnimatePresence>
             <Routes location={location} key={location.pathname}>
