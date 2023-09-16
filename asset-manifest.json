@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Lazal/static/css/main.610de4b2.css",
-    "main.js": "/Lazal/static/js/main.8fcd0b0a.js",
+    "main.js": "/Lazal/static/js/main.2c229e5b.js",
     "index.html": "/Lazal/index.html",
     "main.610de4b2.css.map": "/Lazal/static/css/main.610de4b2.css.map",
-    "main.8fcd0b0a.js.map": "/Lazal/static/js/main.8fcd0b0a.js.map"
+    "main.2c229e5b.js.map": "/Lazal/static/js/main.2c229e5b.js.map"
   },
   "entrypoints": [
     "static/css/main.610de4b2.css",
-    "static/js/main.8fcd0b0a.js"
+    "static/js/main.2c229e5b.js"
   ]
 }
