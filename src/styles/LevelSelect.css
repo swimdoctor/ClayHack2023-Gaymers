@@ -27,7 +27,7 @@
     cursor: pointer;
     font-size: 20px;
 }
-a {
+#level_link {
     color: black;
     text-decoration: none;
     width: 100%;

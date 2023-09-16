@@ -7,14 +7,23 @@
     font-size: 60px;
 }
 #welcome_start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     border-radius: 20px;
-    width: 40%;
+    width: 100%;
     cursor: pointer;
 }
-#welcome_start a {
+#welcome_start p {
     text-align: center;
-    text-decoration: none;
-    color: black;
     font-weight: bold;
     font-size: 20px;
+}
+#title_link {
+    text-decoration: none;
+    color: black;
+    width: auto;
+    height: auto;
+    width: 40%;
 }
