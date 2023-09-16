@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	x="0%" y="0%"
+	width="100%" height="100%"
+	viewBox="0 0 24.0 24.0"
+	enable-background="new 0 0 24.0 24.0"
+	xml:space="preserve">
+<defs>
+	<linearGradient id="fillGrad7" x1="0.000%" y1="50.000%" x2="100.000%" y2="50.000%">
+   		<stop offset="0.000%" style="stop-color:rgb(225,236,255);stop-opacity:1.000" />
+		<stop offset="100.000%" style="stop-color:rgb(179,207,255);stop-opacity:1.000" />
+	</linearGradient>
+
+</defs>
+	<path
+		fill="#000238"
+		stroke="#7A7A7A"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.0"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M22.71,21.75C23.08,21.75,23.38,22.05,23.38,22.43C23.38,22.80,23.08,23.10,22.71,23.10C22.33,23.10,22.03,22.80,22.03,22.43C22.03,22.05,22.33,21.75,22.71,21.75zM1.22,0.43C0.85,0.43,0.54,0.74,0.54,1.11C0.54,1.48,0.85,1.78,1.22,1.78C1.59,1.78,1.89,1.48,1.89,1.11C1.89,0.74,1.59,0.43,1.22,0.43z"/>
+	<path
+		fill="#676767"
+		stroke="#000000"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.24"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M1.34,1.10L1.34,15.78Q1.59,22.51,9.13,22.38L22.71,22.38"/>
+	<path
+		transform = "rotate(-0.00 12.02 11.74)"
+		fill="url(#fillGrad7)"
+		stroke="#000000"
+		fill-opacity="1.0"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.24"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M1.34,1.10Q4.93,18.33,22.71,22.38"/>
+	<path
+		fill="#FCFCFC"
+		stroke="#000000"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.16800001"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M1.34,1.10L22.71,22.38"/>
+	<path
+		fill="#FCFCFC"
+		stroke="#FDFDFD"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.16800001"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M5.42,6.29L7.29,8.20M5.31,7.36L3.87,5.87"/>
+</svg>
