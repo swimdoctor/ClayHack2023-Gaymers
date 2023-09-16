@@ -62,7 +62,6 @@ function TitleScreen() {
                     </motion.div>
                 </Link>
 			</div>
-			<Level></Level>
 		</motion.div>
 	);
 }
