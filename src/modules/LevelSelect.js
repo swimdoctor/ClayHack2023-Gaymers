@@ -25,15 +25,17 @@ function LevelSelect() {
 
 	games.forEach((level_number, index) => {
 		gamesList.push(
-			<motion.div
+            <Link to="/gameplay">
+                <motion.div
 				className="level button"
 				key={index}
 				variants={level_element}
 				whileHover={"hover"}
 				whileTap={"tap"}
-			>
-				<Link to="/gameplay"><p>{level_number}</p></Link>
-			</motion.div>
+			    >
+                    <p>{level_number}</p>
+                </motion.div>
+            </Link>
 		);
 	});
 
