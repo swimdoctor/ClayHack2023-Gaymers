@@ -10,5 +10,5 @@ Compiling issues and multiple errors when trying to sync up the three frameworks
 We believe that we had set a good starting point for the future of Lazal, as both the routing system and using react as foundation allow for managable changes in the future that aren't too resource heavy.
 # What we learned
 In our brainstorming process, we should have put more of a focus on how we were planning to structure our framework. We ran in to multiple errors and other difficulties thanks to attempting to sync up github pages, React, and Processing. For future hackathons, we would like to stay somewhat more in our comfort zone, so that we can truly make our ideas come to life.
-# What's next for Lazar
+# What's next for Lazal
 We will turn it from a prototype to fully working, with the drag system and everything else. As it is a daily puzzle game, ideally we would be making a puzzle everyday, and keeping the past levels in the level select. We may possibly adding new tiles to the game, or even a time based leaderboard.
