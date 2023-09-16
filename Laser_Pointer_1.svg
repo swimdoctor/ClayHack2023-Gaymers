@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	x="0%" y="0%"
+	width="100%" height="100%"
+	viewBox="0 0 24.0 24.0"
+	enable-background="new 0 0 24.0 24.0"
+	xml:space="preserve">
+	<path
+		fill="#272727"
+		stroke="#E1ECFF"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.0"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M32.52,19.29C33.10,19.29,33.56,19.72,33.56,20.26C33.56,20.81,33.10,21.24,32.52,21.24C31.95,21.24,31.48,20.81,31.48,20.26C31.48,19.72,31.95,19.29,32.52,19.29z"/>
+	<path
+		fill="#676767"
+		stroke="#000000"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.12"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M21.56,21.69L21.50,19.54L1.03,12.82L1.63,22.88M1.65,0.94L0.97,10.54L22.07,5.14L21.58,2.12"/>
+	<path
+		fill="#000238"
+		stroke="#000000"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.12"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M1.77,0.94L10.21,1.50M9.54,22.41L1.81,22.90"/>
+	<path
+		fill="#3E3E3E"
+		stroke="#000000"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.12"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M11.26,1.18L19.11,1.18A3.57 3.57 0 0 1 22.69,4.75L22.69,19.30A3.57 3.57 0 0 1 19.11,22.88L11.26,22.88A3.57 3.57 0 0 1 7.68,19.30L7.68,4.75A3.57 3.57 0 0 1 11.26,1.18z"/>
+	<path
+		fill="#000000"
+		stroke="#7A7A7A"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.0"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M21.38,21.07C21.75,21.07,22.05,21.37,22.05,21.74C22.05,22.12,21.75,22.42,21.38,22.42C21.01,22.42,20.70,22.12,20.70,21.74C20.70,21.37,21.01,21.07,21.38,21.07zM1.77,22.09C1.40,22.09,1.10,22.39,1.10,22.77C1.10,23.14,1.40,23.44,1.77,23.44C2.14,23.44,2.44,23.14,2.44,22.77C2.44,22.39,2.14,22.09,1.77,22.09zM1.77,0.23C1.40,0.23,1.10,0.54,1.10,0.91C1.10,1.28,1.40,1.58,1.77,1.58C2.14,1.58,2.44,1.28,2.44,0.91C2.44,0.54,2.14,0.23,1.77,0.23zM21.66,1.45C21.29,1.45,20.99,1.75,20.99,2.12C20.99,2.50,21.29,2.80,21.66,2.80C22.03,2.80,22.34,2.50,22.34,2.12C22.34,1.75,22.03,1.45,21.66,1.45zM1.77,22.09C1.40,22.09,1.10,22.39,1.10,22.77C1.10,23.14,1.40,23.44,1.77,23.44C2.14,23.44,2.44,23.14,2.44,22.77C2.44,22.39,2.14,22.09,1.77,22.09zM1.77,0.23C1.40,0.23,1.10,0.54,1.10,0.91C1.10,1.28,1.40,1.58,1.77,1.58C2.14,1.58,2.44,1.28,2.44,0.91C2.44,0.54,2.14,0.23,1.77,0.23z"/>
+	<path
+		fill="#000000"
+		stroke="#7A7A7A"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.23999998"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M10.00,9.87L20.25,9.87A0.46 0.46 0 0 1 20.71,10.33L20.71,13.09A0.46 0.46 0 0 1 20.25,13.56L10.00,13.56A0.46 0.46 0 0 1 9.53,13.09L9.53,10.33A0.46 0.46 0 0 1 10.00,9.87z"/>
+	<path
+		fill="#000000"
+		stroke="#7A7A7A"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.23697849"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M12.07,9.94L12.07,13.56M18.20,13.56L18.20,10.04M15.13,13.44L15.10,9.98"/>
+</svg>
