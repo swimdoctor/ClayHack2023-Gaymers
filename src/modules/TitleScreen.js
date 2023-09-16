@@ -1,4 +1,5 @@
 import "../styles/TitleScreen.css";
+import Level from "./Level";
 
 function TitleScreen() {
     return (
@@ -7,6 +8,7 @@ function TitleScreen() {
             <div id="welcome_start">
                 Start
             </div>
+            <Level></Level>
         </div>
     )
 }
